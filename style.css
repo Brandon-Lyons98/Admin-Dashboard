@@ -224,6 +224,38 @@ ul {
   color: gray;
 }
 
+.users {
+  display: flex;
+  align-items: center;
+}
+
+.users p {
+  font-size: .8em;
+}
+
+.users img {
+  width: 40px;
+  height: auto;
+  border-radius: 25px;
+  margin-right: .75em;
+}
+
+.user1 {
+  background-color: rgb(125, 43, 43);
+}
+
+.user2 {
+  background-color: gray;
+}
+
+.user3 {
+  background-color: rgb(72, 72, 72);
+}
+
+.user4 {
+  background-color: rgb(0, 177, 0);
+}
+
 .trending-head,
 .announce-head {
   padding: .24em 0;
