@@ -22,9 +22,17 @@ ul {
 .header {
   grid-area: 1 / 2 / 3 / 6;
   display: grid;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: white;
   box-shadow: rgb(166, 166, 166);
+}
+
+.searchbar {
+  background-color: rgb(244, 244, 244);
+  width: 90%;
+  height: 30%;
+  border-radius: 15px;
 }
 
 .profile-left {
@@ -51,6 +59,17 @@ ul {
   align-items: center;
 }
 
+.sidebar-buttons {
+  border-radius: 1.75em;
+  transition: all .3s ease
+}
+
+.sidebar-buttons:hover {
+  background-color: rgb(1, 134, 187);
+  padding: 1.2em 2.2em;
+  transition: all .3s ease;
+}
+
 .nav-buttons {
   background-color: rgb(36, 169, 222);
   color: white;
@@ -73,7 +92,7 @@ ul {
   align-items: center;
 }
 
-img {
+.nav > img {
   width: 50px;
   height: auto;
   background-color: gray;
@@ -174,28 +193,18 @@ img {
   height: 90%;
 }
 
+.announcements > div > p {
+  font-size: .85em;
+  font-weight: 400;
+  color: gray;
+}
+
 .trending-head,
 .announce-head {
   padding: .24em 0;
 }
 
-/* .announcements {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  background-color: white;
-}
-
-.trending {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid red;
-  height: 100%;
-  background-color: white;
-} */
-
 hr.solid {
   border: 1px solid #d5d5d5;
+  margin: .5em 0;
 }
