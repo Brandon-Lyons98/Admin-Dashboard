@@ -127,6 +127,11 @@ ul {
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   align-items: center;
+  padding-right: 1.75em;
+}
+
+.logo img {
+  margin: 0 0.5em;
 }
 
 .sidebar {
@@ -135,13 +140,14 @@ ul {
   background-color: rgb(36, 169, 222);
   color: whitesmoke;
   display: grid;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 2em;
 }
 
 .navbar > ul {
