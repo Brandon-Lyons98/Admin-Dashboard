@@ -115,17 +115,21 @@ ul {
   margin: 0 1em;
 }
 
-.image0,
-.image1,
-.image2,
-.image3,
-.image4,
-.image5,
-.image6,
-.image7,
-.image8,
-.image9 {
-  width: 24px;
+.searchbar-img,
+.bell-img {
+  width: 1.2em;
+  height: auto;
+}
+
+.kangaroo-img {
+  width: 1.3em;
+  height: auto;
+  background-color: grey;
+  border-radius: 2em;
+}
+
+.side-buttons {
+  width: 1.3em;
   height: auto;
 }
 
